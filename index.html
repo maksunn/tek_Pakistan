@@ -16,7 +16,45 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+<script>
+  $('#myCarousel').carousel({
+  interval: 400
+})
+
+$('.carousel .item').each(function() {
+  var item = $(this);
+  item.siblings().each(function(index) {
+    if (index < 4) {
+      $(this).children(':first-child').clone().appendTo(item);
+    }
+  });
+});
+</script>
+
+<script>
+        function openCity(cityName,elmnt,color, forecolor) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+            tablinks[i].style.color = "";
+          }
+          document.getElementById(cityName).style.display = "block";
+          elmnt.style.backgroundColor = color;
+          elmnt.style.color = forecolor;
+        }
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+
+
+
   <script>
     
     window.dataLayer = window.dataLayer || [];
@@ -28,11 +66,11 @@
 
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
-<link rel="stylesheet" href="styles.a983bc8a3542d9e21db8.css"></head>
+<link rel="stylesheet" href="styles.d788c8f5aaa43493b2c9.css"></head>
 
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.248cfa9517359c087195.js" defer></script><script src="polyfills.dcdf7231cfcc9c34402f.js" defer></script><script src="scripts.7509da4d5ae8a31544fa.js" defer></script><script src="main.1980a12534ea6e3d5a71.js" defer></script></body>
+<script src="runtime.2f44f9a7cfaebeecc8ac.js" defer></script><script src="polyfills.49c0552869d099f6f718.js" defer></script><script src="scripts.7509da4d5ae8a31544fa.js" defer></script><script src="main.7bd10cb4222166dc0a17.js" defer></script></body>
 
 </html>

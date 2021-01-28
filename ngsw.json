@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1611844460365,
+  "timestamp": 1611849282175,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -35,12 +35,12 @@
         "/common.b8a76fe3f642aaf2bc16.js",
         "/favicon.ico",
         "/index.html",
-        "/main.26d573e7a349b9f4495f.js",
+        "/main.e59869ab30e036d35f26.js",
         "/manifest.webmanifest",
         "/polyfills.49c0552869d099f6f718.js",
         "/runtime.c8ae838476b0065dfc56.js",
         "/scripts.7509da4d5ae8a31544fa.js",
-        "/styles.d4eabaed5b15508e9385.css"
+        "/styles.a0c85ad628140b847755.css"
       ],
       "patterns": []
     },
@@ -1389,17 +1389,17 @@
     "/fa-solid-900.46fdbd2d897f8824e63c.woff": "3b86a0ce15d8d534b65e98560e321a933d310688",
     "/favicon.ico": "b03261f7f1a940cc221af641abc6397d13636ecd",
     "/grabone.491ecc682400109bd195.png": "38e12c4a002d0fff7022e90b77a36ada6183af70",
-    "/index.html": "04a42af38c46afff6ed9b86d15cff0819df6f3c2",
+    "/index.html": "0631da870101e05730b153c14b08fcf949a146d3",
     "/linesangle.81a427da82703c9cfff1.png": "b23dae8727c769f3038b4a436a0f6e749b6c9d54",
     "/mack1.2b70ee48e654225775b1.jpg": "d49d57f5037c028981c4ec13eed5472ff0247348",
-    "/main.26d573e7a349b9f4495f.js": "b73609df6e03efc8b868bbabe4ab26f2cfcf47f8",
+    "/main.e59869ab30e036d35f26.js": "9cc15a989e0e571503ff96d87f01acb6e8c0dec8",
     "/manifest.webmanifest": "85e05bc91e09e81d4ae86e61a913cd8860b3f7be",
     "/map1.1dd4493a4b7064c594dc.png": "d9e98dfc84303c9a562be5e97d4809687309857e",
     "/pat2.01d79282c71fae11692a.jpg": "1cc0ee50f008d2812aa14eee7db1a91969057ef5",
     "/polyfills.49c0552869d099f6f718.js": "08e9974d16e32bdfcf49834fa2f44fe4e30615fb",
     "/runtime.c8ae838476b0065dfc56.js": "3d0891845d63d69872e6494224e86a9121f1ac87",
     "/scripts.7509da4d5ae8a31544fa.js": "5fbd1013d85bebf03f4cfb2b98bb3c0430d63b15",
-    "/styles.d4eabaed5b15508e9385.css": "13c765f79cb9573c0a64a1b5bff656867fe914ab",
+    "/styles.a0c85ad628140b847755.css": "c176d16d883a92526fa9fd6b480bff67600db1d7",
     "/takbg.e6c8a723bd26fde76842.jpg": "4e424064e0d9eae72208e9dfa25878d019d85a8d",
     "/texts.d6be17686e276f49bd9d.png": "6b4c77600573c9c604261a1262cf8b423f2d3178",
     "/tf.01e58d8aa474dbab1cd6.png": "74a1d3726f230482c8f5b3a7af53b0bc27c7319a",
